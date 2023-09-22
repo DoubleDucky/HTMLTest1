@@ -1,1 +1,9 @@
+.images {width: 400px; position: absolute; left: 1%; transform: translate(5%, 5%)}
+.textus {position: absolute; left: 47%}
+.images2 {position: absolute; right: 15%; width: 435px; transform: translate(7%, 15%)}
+.main1 {font-family: 'Montserrat', sans-serif; font-size: 18pt}
+.main2 {font-family: 'Montserrat', sans-serif; font-size: 14pt}
+.textus2 {position: absolute; left: 47%; transform: translate(0%, -52%)}
+.shifter {position: relative; top: 50%; left: 3% }
+p {font-family: 'Montserrat', sans-serif; font-size: 11pt}
 
