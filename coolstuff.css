@@ -1,0 +1,26 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {font-family: sans-serif;
+font-size: 40px;
+width: 100%;
+min-height: 100vh;}
+
+.container {display: grid;
+gap: 20px;
+height: 100vh;
+grid-template-columns: 200px auto 100 px;
+grid-template-rows: repeat(3, 1fr);
+grid-template-areas: " A A A A    A A A A   A A A A"
+                     " B B B B    B B B B   B C C C" 
+                     " B B B B    B B B B   B C C C";
+}
+
+.box-1 {grid-area: A}
+.box-2 {grid-area: B}
+.box-3 {grid-area: C}
+
+[class^="box-"] {background-color: skyblue;
+display: grid;
+place-items: center}
